@@ -8,7 +8,11 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
-gem 'sqlite3'
+
+
+group :development do
+	gem 'sqlite3'
+end
 
 group :doc do
   gem 'sdoc', require: false
